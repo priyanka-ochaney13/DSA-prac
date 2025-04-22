@@ -1,5 +1,4 @@
-import java.util.*;
-class Main {
+class NQueen {
     static boolean isSafe(int[][] board, int row, int col, int n) {
         // Check if any queen exists in the same column above this row
         for(int i=0; i<row; i++) 
@@ -39,7 +38,7 @@ class Main {
             System.out.println();
         }
     }
-    
+    /* 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println();
@@ -50,4 +49,5 @@ class Main {
         if(solveNQueens(board, 0, n)) printBoard(board, n);
         else System.out.println("Solution doesn't exist");
     }
+     */
 }
